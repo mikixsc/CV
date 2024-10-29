@@ -49,7 +49,7 @@ At the top, a navigation bar provides direct access to key sections:
 
 Below this, the landing section introduces a brief personal profile with contact information, a short description, and a button to download the CV—allowing recruiters to access essential information immediately.
 
-The following sections are arranged by importance, starting with About Me, where a centered text segment offers a concise description of my professional background.
+The following sections are arranged by importance, starting with About Me, where a centered text segment offers a concise description of me.
 
 The Education and Experience section is presented in side-by-side columns, with entries organized chronologically. Each category (education and work experience) uses individual containers for clarity and consistency.
 
