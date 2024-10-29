@@ -76,6 +76,7 @@ The combination provides a clean and visually pleasing design, with structured s
 
 
 # Figma project
+https://www.figma.com/design/sD3OcwQyDBtRSlVTyPt2Sb/CV?node-id=0-1&t=9c3GWuVWyVU64nwQ-1
 
 # Public link to the page
 https://mikixsc.github.io/CV/
