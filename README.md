@@ -51,11 +51,11 @@ Below this, the landing section introduces a brief personal profile with contact
 
 The following sections are arranged by importance, starting with About Me, where a centered text segment offers a concise description of me.
 
-The Education and Experience section is presented in side-by-side columns, with entries organized chronologically. Each category (education and work experience) uses individual containers for clarity and consistency.
+The Education and Experience section is presented in side-by-side columns, where items are organized chronologically.
 
 In Skills and Languages, skills are displayed as rectangular cards that reveal a more detailed description upon hover. Languages are listed below, each with a progress bar indicating my level.
 
-The Interests section is visually separated with bordered elements for a clean, organized look.
+In the Interests section, each interest is visually separated with bordered elements for a clean, organized look.
 
 Finally, the footer reinforces contact information and includes another CV download button, encouraging the recruiter to get in touch easily.
 
