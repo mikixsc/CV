@@ -1,97 +1,81 @@
 # Project analysis
 ## User profile
-The final user will be a recruiter. 
-That is expecting to find my work experience, education, key skills, interests...
-Also is expecting to find my contact information and CV
-Also is expecting to find my contact information.
+The intended user for this project is a recruiter looking to evaluate my professional profile. This individual expects to find key details such as my work experience, education, core skills, interests, and contact information, as well as a downloadable version of my CV.
 
 
-User Persona:
-Name: Emma Collins
+### User Persona:
+**Name:** Emma Collins
 
-Age: 35
+**Age:** 35
 
-Job Title: HR Manager / Recruiter
+**Job Title:** HR Manager / Recruiter
 
-Background:
+**Background:**
 
-Emma has been working in recruitment for 10 years.
-She uses LinkedIn and various job boards to find candidates but often gets recommendations from colleagues or comes across CVs via personal websites.
-She has a heavy workload and limited time to review each candidate, so she appreciates clear, organized, and easy-to-navigate websites.
+Emma has 10 years of experience in recruitment and frequently uses LinkedIn and various job boards to discover candidates. She also receives CVs through personal websites and recommendations from colleagues. Given her demanding workload, she values websites that are well-organized, straightforward, and easy to navigate, enabling her to quickly evaluate candidates.
 
-Motivations:
+**Motivations:**
 
-Emma is looking for the right candidate to fill a job vacancy. She needs to quickly assess if you have the skills and experience required for the role.
+Emma’s goal is to find the ideal candidate for an open position, making it crucial for her to rapidly assess whether a candidate has the qualifications needed.
 
-Goals:
+**Goals:**
 
-Find the right candidate for a job role.
-Quickly assess whether you meet the job requirements.
-Get a clear overview of your skills, experience, and education.
+- Identify the right candidate for a role.
+- Efficiently determine if a candidate meets the job requirements.
+- Get a clear overview of skills, experience, and education
 
-Frustrations:
+**Frustrations:**
 
-Websites with cluttered layouts or too much unnecessary information.
-No downloadable CV option, forcing her to copy-paste information.
-Poor contact information or outdated links.
+- Websites with cluttered layouts or unnecessary information.
+- Lack of a downloadable CV option, forcing her to copy information manually.
+- Insufficient or outdated contact details.
 
-Key Features She Wants:
+**Key Features She Wants:**
 
-A simple, clean layout that’s easy to navigate.
-A downloadable CV option.
-Clear contact information.
-Well-organized sections on skills, experience, and education.
+- A simple, easy-to-navigate layout.
+- A downloadable CV option.
+- Clear and accessible contact information.
+- Well-structured sections for skills, experience, and education.
+
 
 ## Information architecture
-Information architecture: in this project, which is assumed to be a singlepage project, this analysis is basically the distribution of the different
-sections of the CV on the page
+This project, designed as a single-page layout, organizes the CV sections in a logical, recruiter-friendly format.
 
-Information architecture: describe using around
-200 words (minimum) how you have distributed the information of
-the page.
-
-Primer de tot hi ha una navegació superior a les diferents seccions de la pagina web. Que en aquest cas són:
+At the top, a navigation bar provides direct access to key sections:
 - About me 
-- Education and experience
-- Skills and laguages
+- Education and Experience
+- Skills and Languages
 - Interests
 
-Seguidament tenim una portada. En aquesta portada hi ha una presentació personal. Amb informació de contacte, una descripció molt reduida de qui sóc y un boto per descarregar el CV. D'aquesta forma ja només entrar a la pagina pots contacatar amb mi i descarregar el CV sense tenir que veure res més.
+Below this, the landing section introduces a brief personal profile with contact information, a short description, and a button to download the CV—allowing recruiters to access essential information immediately.
 
-A partir d'aquí començem a trobar-nos les diferents seccions. Les quals van de informació més important a menys. 
+The following sections are arranged by importance, starting with About Me, where a centered text segment offers a concise description of my professional background.
 
-La primera es una descripció sobre mi.
+The Education and Experience section is presented in side-by-side columns, with entries organized chronologically. Each category (education and work experience) uses individual containers for clarity and consistency.
 
-Seguidament es pot veure els meus estudis i experiencia laboral. Estan disposats una al costat de l'altre.
+In Skills and Languages, skills are displayed as rectangular cards that reveal a more detailed description upon hover. Languages are listed below, each with a progress bar indicating my level.
 
-Més abaix tenim els skills and languages. En aquest cas he posat un a sota l'altre. Per tal de que el disseny quedes més net i atractiu.
+The Interests section is visually separated with bordered elements for a clean, organized look.
 
-L'ultima seccio son els interests 
-
-
-
-
-Primer vull que hi hagi una navegació superior als diferentes apartats de la pagina,
-els cuals si són clicats et porten a la informació corresponent. Apart just a sota de la
-nevagació lo primer que hi haura sera un disseny atractiu i bonic amb una presentació minima
-meva on es veura (Nom i Cognom), Foto, Descripció minima, informació de contactate i un boto 
-per descarregar el CV.
-Seguidament hi haura una presentació més extensa meva (Sobre Mi).
-El seguent apartat sera de la meva formació i experiencia laboral.
-
-Despres un altre apartat en aptituds i ideomes
-
-També puc posar un altre apartat amb certificats, altre informació, premis, interesos
-
-
-Foto
-Experiencia laboral
-Formació
-Projectes realitzats
-
+Finally, the footer reinforces contact information and includes another CV download button, encouraging the recruiter to get in touch easily.
 
 ## Visual design
+
+The color palette, inspired by the design tool [Paletton](https://paletton.com/), is centered on shades of blue to convey professionalism and trust. The project’s design primarily uses four colors:
+
+- White
+- Primary color: #0E2E5B
+- Secondary color: #345689
+- Accent color: #e8f1ff
+
+Two fonts are used for readability and visual appeal:
+- Primary font: 'Playfair Display', serif (for titles)
+- Secondary font: 'Roboto', sans-serif (for body text)
+
+The combination provides a clean and visually pleasing design, with structured sections ordered by importance for easy navigation.
+
 
 # Figma project
 
 # Public link to the page
+https://mikixsc.github.io/CV/
