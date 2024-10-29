@@ -1,0 +1,209 @@
+:root {
+    --primary-color: #0E2E5B;
+    --secondary-color: #345689;
+    --fuente-1: 'Playfair Display', serif;
+    --fuente-2: 'Roboto';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    font-family: var(--fuente-2);
+}
+
+h1{
+    font-family: var(--fuente-1);
+}
+
+h2{
+    font-family: var(--fuente-1);
+    color: var(--secondary-color);
+}
+
+h3{
+    font-family: var(--fuente-1);
+}
+
+h1 h2 h3{
+    color: var(--secondary-color);
+    font-family: var(--fuente-1);
+}
+
+h1{
+    font-size: 48px;
+}
+
+nav{
+    background-color:var(--primary-color); 
+    padding: 10px;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none ;
+    padding: 2px 15px 2px 15px;
+    margin-bottom: 10px;
+    transition: background-color 0.4s;
+    border-radius: 15px;
+}
+
+
+nav li:hover{
+    background-color: var(--secondary-color);
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+#presentation {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.LargeContainer{
+    width: 75%;
+    position: relative;
+    overflow: hidden;
+}
+
+.LargeContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.headings {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* O space-around según tus preferencias */
+    z-index: 1;
+}
+
+.headings h2,
+.headings h1,
+.headings h3 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin: 10px 10px 10px 40px;
+    padding: 0;
+}
+
+.headings h3{
+    margin-bottom: 50px;
+}
+
+.contact {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+    color: white;
+    width: 25%;
+    background-color: var(--primary-color);
+    text-align: center;
+    overflow: hidden;
+}
+
+#aboutme p{
+    padding: 0% 20%;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact p a{
+    text-decoration: none;
+    color: white;
+}
+
+.circuloIcono {
+    padding: 20px;
+    overflow: hidden
+}
+
+.circuloIcono img {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+}
+
+.fa {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.contact h2{
+    color: white;
+}
+
+.infoContainer{
+    display: flex;
+}
+
+.infoContainer p{
+    margin: 10px;
+}
+
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% 10% 5% 10%;
+    gap: 20%;
+}
+
+.verticalSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5% 10% 5% 10%;
+}
+
+
+footer{
+    background-color:var(--primary-color); 
+}
+
+.socialMedia{
+    display: flex;
+    gap: 10px;
+}
+
+.socialMedia img{
+    width: 20px;
+    height: 20px;
+}
+
