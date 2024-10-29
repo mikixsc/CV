@@ -1,6 +1,7 @@
 :root {
     --primary-color: #0E2E5B;
     --secondary-color: #345689;
+    --accent-color: #e8f1ff;
     --fuente-1: 'Playfair Display', serif;
     --fuente-2: 'Roboto';
 }
@@ -11,6 +12,7 @@ html {
 
 body{
     margin: 0px;
+    min-width: 700px;
     font-family: var(--fuente-2);
 }
 
@@ -67,7 +69,6 @@ nav li a{
     height: 90vh;
     display: flex;
     flex-direction: row;
-
 }
 
 .LargeContainer{
@@ -111,7 +112,6 @@ nav li a{
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    gap: 20px;
     padding: 10px;
     align-items: center;
     color: white;
@@ -121,18 +121,19 @@ nav li a{
     overflow: hidden;
 }
 
-#aboutme p{
-    padding: 0% 20%;
-}
-
 .contactInfo {
+    margin: 30px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.contact p a{
+.contactInfo p {
+    margin: 10px 0px;
+}
+
+.contactInfo p a{
     text-decoration: none;
     color: white;
 }
@@ -161,11 +162,45 @@ nav li a{
 .socialMedia {
     display: flex;
     justify-content: space-between;
-    margin: 15px;
+}
+
+.socialMedia{
+    display: flex;
+    gap: 10px;
+}
+
+.socialMedia img{
+    width: 20px;
+    height: 20px;
 }
 
 .contact h2{
     color: white;
+}
+
+
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    opacity: 0.7;
+}
+
+#aboutme {
+    background-color: var(--accent-color);
+}
+
+#aboutme p{
+    padding: 0% 20%;
 }
 
 .infoContainer{
@@ -183,27 +218,78 @@ nav li a{
     gap: 20%;
 }
 
+.verticalSectionElement{
+    width: 100%;
+}
+
+
 .verticalSection {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 5% 10% 5% 10%;
+    padding: 5% 10% 5% 10%;
 }
 
-
-footer{
-    background-color:var(--primary-color); 
-}
-
-.socialMedia{
-    display: flex;
+#skills_languages {
+    align-items: flex-start;
+    text-align: start;
     gap: 10px;
 }
 
-.socialMedia img{
-    width: 20px;
-    height: 20px;
+#skills {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
 }
 
+
+#interests {
+    background-color: var(--accent-color);
+}
+
+footer{
+    background-color: var(--primary-color);
+}
+
+
+.hover-div {
+    width: 150px;
+    height: 100px;
+    background-color: var(--primary-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.default-content{
+    font-size: 16px;
+}
+
+.hover-content {
+    font-size: 12px;
+    display: none;
+}
+
+/* Estilos de hover */
+.hover-div:hover {
+    background-color: var(--secondary-color); /* Cambia el color de fondo al hacer hover */
+}
+
+.hover-div:hover .default-content {
+    display: none; /* Oculta el contenido original */
+}
+
+.hover-div:hover .hover-content {
+    display: block; /* Muestra el contenido alternativo */
+}
