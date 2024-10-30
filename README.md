@@ -61,19 +61,17 @@ Finally, the footer reinforces contact information and includes another CV downl
 
 ## Visual design
 
-The color palette, inspired by the design tool [Paletton](https://paletton.com/), is centered on shades of blue to convey professionalism and trust. The project’s design primarily uses four colors:
-
+The color palette, inspired by the design tool [Paletton](https://paletton.com/), centers on various shades of blue, chosen to evoke a sense of professionalism, reliability, and trust. These cool blue tones create a visually cohesive and calm aesthetic, ideal for a CV or professional webpage, as blue is often associated with confidence. The design is built around four primary colors:
 - White
 - Primary color: #0E2E5B
-- Secondary color: #345689
-- Accent color: #e8f1ff
+- Secondary color: #345689, a softer blue that complements the primary color and is used in supporting elements to maintain visual consistency.
+- Accent color: #e8f1ff, a light, airy blue that highlights certain areas, bringing attention to specific details without overwhelming the viewer.
 
 Two fonts are used for readability and visual appeal:
-- Primary font: 'Playfair Display', serif (for titles)
-- Secondary font: 'Roboto', sans-serif (for body text)
+- Primary font: 'Playfair Display', a serif font that is used for titles and headers, adding a touch of elegance and formality to the design.
+- Secondary font: 'Roboto', a clean sans-serif font, used for body text to ensure clarity and ease of reading.
 
-The combination provides a clean and visually pleasing design, with structured sections ordered by importance for easy navigation.
-
+This combination of colors and fonts creates a organized layout that not only enhances the user experience but also supports easy navigation through structured sections arranged by importance. This thoughtful design ensures a polished, professional look that holds the viewer’s attention and reinforces the content’s clarity.
 
 # Figma project
 https://www.figma.com/design/sD3OcwQyDBtRSlVTyPt2Sb/CV?node-id=0-1&t=9c3GWuVWyVU64nwQ-1
