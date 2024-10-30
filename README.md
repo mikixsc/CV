@@ -39,23 +39,23 @@ Emma’s goal is to find the ideal candidate for an open position, making it cru
 
 
 ## Information architecture
-This project, designed as a single-page layout, organizes the CV sections in a logical, recruiter-friendly format.
+This project, designed as a single-page layout, organizes CV sections in a logical, recruiter-friendly format that emphasizes readability and ease of navigation. The aim is to present information in a structured way, so recruiters can quickly access key details and gain a clear understanding of the candidate.
 
-At the top, a navigation bar provides direct access to key sections:
+At the top of the page, a fixed navigation bar provides immediate access to key sections, each of which is organized to maximize visibility and impact:
 - About me 
 - Education and Experience
 - Skills and Languages
 - Interests
 
-Below this, the landing section introduces a brief personal profile with contact information, a short description, and a button to download the CV—allowing recruiters to access essential information immediately.
+Below this, the landing section introduces a brief personal profile with contact information, a short description, and a button to download the CV—allowing recruiters to access essential information immediately. This setup allows recruiters to download and review the CV without navigating through the entire page if they prefer.
 
 The following sections are arranged by importance, starting with About Me, where a centered text segment offers a concise description of me.
 
-The Education and Experience section is presented in side-by-side columns, where items are organized chronologically.
+The Education and Experience section appears next, displayed in side-by-side columns to make efficient use of space. Each entry is listed chronologically, offering a clear timeline of accomplishments.
 
-In Skills and Languages, skills are displayed as rectangular cards that reveal a more detailed description upon hover. Languages are listed below, each with a progress bar indicating my level.
+In the Skills and Languages section, individual skills are displayed as clickable rectangular cards. When hovered over, these cards reveal additional details, while language proficiency is indicated with progress bars to show skill levels visually.
 
-In the Interests section, each interest is visually separated with bordered elements for a clean, organized look.
+The Interests section provides insight into personal hobbies and activities, with each interest separated by bordered elements, ensuring a clean and organized look.
 
 Finally, the footer reinforces contact information and includes another CV download button, encouraging the recruiter to get in touch easily.
 
