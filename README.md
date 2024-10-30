@@ -47,7 +47,7 @@ At the top of the page, a fixed navigation bar provides immediate access to key 
 - Skills and Languages
 - Interests
 
-Below this, the landing section introduces a brief personal profile with contact information, a short description, and a button to download the CV—allowing recruiters to access essential information immediately. This setup allows recruiters to download and review the CV without navigating through the entire page if they prefer.
+Below this, the landing section introduces a brief personal profile with contact information, a short description, and a button to download the CV. Allowing recruiters to access essential information immediately. This setup allows recruiters to download and review the CV without navigating through the entire page if they prefer.
 
 The following sections are arranged by importance, starting with About Me, where a centered text segment offers a concise description of me.
 
